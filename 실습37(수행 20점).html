@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>실습37(수행 20점)</title>
+	<script>
+		function aaa() {
+			var aa = document.getElementById("cal");
+			var bb = document.getElementById("res");
+			bb.value=eval(aa.value);
+		}
+	</script>
+</head>
+<body>
+	<h3>계산기 만들기</h3>
+	<hr>
+	<p>계산하고자 하는 수식을 입력하고 계산 버튼을 누르세요</p>
+	<form>
+		<p>수식 : <input type="text" id="cal"></p>
+		<p>결과 : <input type="text" id="res"> <input type="button" value="계산" onClick="aaa()"> <input type="reset" value="지우기"></p>
+	</form>
+</body>
+</html>

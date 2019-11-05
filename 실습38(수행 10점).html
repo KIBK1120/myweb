@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>실습38(수행 10점)</title>
+	<script>
+		function down(aa) {
+			aa.style.fontStyle="italic";
+		}
+		function up(aa) {
+			aa.style.fontStyle="normal";
+		}
+		function red(aa) {
+			aa.style.borderColor="red";
+		}
+		function blue(aa) {
+			aa.style.borderColor="blue";
+		}
+	</script>
+</head>
+<body>
+	<h3>마우스 관련 이벤트 리스너</h3>
+	<hr>
+	<p>마우스 관련 <span style="border: 1px solid blue" onMouseDown="down(this)" onMouseUp="up(this)" onMouseOver="red(this)" onMouseOut="blue(this)">이벤트</span>가 발생합니다.</p>
+</body>
+</html>

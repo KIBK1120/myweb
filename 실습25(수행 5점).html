@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>실습25 (수행 5점)</title>
+	<script>
+		function aaa() {
+			var aa = document.getElementById("mySpan");
+			aa.style.color="green";
+			aa.style.backgroundColor="yellow";
+			aa.style.fontSize="30px";
+			aa.style.display="block";
+			aa.style.width="6em";
+			aa.style.border="3px dotted magenta";
+			aa.style.margin="20px";
+		}
+	</script>
+</head>
+<body>
+	<h3>CSS 스타일 동적 변경</h3>
+	<hr>
+	<p style="color: blue"> 이것은 <span id="mySpan" style="color: red">문장입니다.</span></p>
+	<input type="button" value="스타일변경" onClick="aaa()">
+</body>
+</html>

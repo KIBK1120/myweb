@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>실습34(수행 10점)</title>
+	<script>
+		function aaa() {
+			var aa = document.getElementsByTagName("p");
+			var text = prompt("가고 싶은 곳을 입력하세요","");
+			aa[0].innerHTML=text;
+		}
+	</script>
+</head>
+<body>
+	<h3>innerHTML</h3>
+	<hr>
+	<p onClick="aaa()">이번 여름에는 어디로 여행을 갈까요?</p>
+</body>
+</html>

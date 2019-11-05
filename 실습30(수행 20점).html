@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>실습30(수행 20점)</title>
+	<script>
+		function bbb(a) {
+			var aa = document.getElementById("aaa");
+			aa.style.color=a;
+		}
+	</script>
+</head>
+<body>
+	<h3>라면 끓이는 순서 <button onClick="bbb('red')">클릭(RED)</button> <button onClick="bbb('green')">클릭(GREEN)</button></h3>
+	<hr>
+	<ol type="A" id="aaa" onMouseOver="this.style.backgroundColor='yellow'" onMouseOut="this.style.backgroundColor='white'">
+		<li>물을 끓인다</li>
+		<li>라면과 스프를 넣는다</li>
+		<li>파를 썰어 넣는다</li>
+		<li>5분 후 맛있게 먹는다</li>
+	</ol>
+</body>
+</html>
